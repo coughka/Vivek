@@ -504,11 +504,23 @@ footer {
     opacity: 0;
 }
 
+.intro {
+    display:grid;
+}
+
+.intro .btn {
+    width:50%;
+    justify-self:center;
+}
 
 }
 
 @media screen and (max-width:425px) {
     .team-block-item img{
         transform:rotate(45deg) scale(1.43) translateX(-14%) translateY(14%);
+    }
+
+    iframe {
+        width:95%;
     }
 }
